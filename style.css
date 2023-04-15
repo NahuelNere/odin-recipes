@@ -11,7 +11,35 @@ h1 {
     
 }
 
-/* Nav Bar*/
+/* Dos Columnas*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .right-column {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .left-column {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Nav Bar*/
 
 header {
     display: flex;
@@ -37,10 +65,11 @@ header {
   nav a {
     color: rgb(43, 42, 42);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
   }
+
   
 /* Footer */
 
