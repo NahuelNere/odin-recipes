@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(113, 255, 203);
+    background-color: #C5D7C8;
+    color: whitesmoke;
     text-align: center
 }
 
@@ -45,7 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  rgb(83, 216, 167);
+    background-color: #b1c4b4c1;
     padding: 20px;
   }
   
@@ -63,7 +64,7 @@ header {
   }
   
   nav a {
-    color: rgb(43, 42, 42);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
@@ -74,8 +75,8 @@ header {
 /* Footer */
 
 footer {
-    background-color: rgb(83, 216, 167);
-    color: rgb(43, 42, 42);
+    background-color: #b1c4b4c1;
+    color: whitesmoke;
     padding: 20px;
     text-align: center;
   }
